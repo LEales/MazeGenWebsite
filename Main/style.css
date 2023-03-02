@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('./PressStart2P.ttf');
+}
+*{
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+}
+.mt-5 {
+    max-width: 320;
+    max-height: 180;
+}
+
