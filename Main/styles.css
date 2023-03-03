@@ -6,4 +6,115 @@
     font-family: 'Press Start 2P', sans-serif;
     color: white;
 }
+#mazegen-img {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+#svenny-img {
+    margin-bottom: 50px;
+}
+#video-div {
+    text-align: center;
+}
+#ghost1 {
+    position: absolute;
+    top: 230px;
+    left: 150px;
+}
+#ghost2 {
+    position: absolute;
+    top: 230px;
+    right: 150px;
+    transform: scaleX(-1);
+}
+#tree1 {
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+#tree2 {
+    position: absolute;
+    top: 380px;
+    left: 550px;
+}
+#tree3 {
+    position: absolute;
+    top: 420px;
+    left: 580px;
+}
+#tree4 {
+    position: absolute;
+    top: 410px;
+    right: 510px;
+    transform: scaleX(-1);
+}
+#tree5 {
+    position: absolute;
+    top: 375px;
+    right: 550px;
+    transform: scaleX(-1);
+}
+#tree6 {
+    position: absolute;
+    top: 430px;
+    right: 585px;
+    transform: scaleX(-1);
+}
+#rock1-img {
+    max-width: 7%;
+    height: auto;
+}
+#rock1 {
+    position: absolute;
+    top: 470px;
+    left: 550px;
+}
+
+.blinking-img {
+    max-width: 8%;
+    height: auto;
+    animation: blinkle 1s infinite;
+}
+
+.rndm-img {
+    max-width: 10%;
+    height: auto;
+}
+
+.text-highlight {
+    color: #FF0000;
+}
+.highlight-text-larger {
+    font-size: 1.1em;
+}
+#main {
+    margin-bottom: 100px;
+}
+#copyright {
+    font-size: 0.6em;
+}
+#img-table {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+@keyframes blinkle {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+}
   
