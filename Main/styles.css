@@ -1,28 +1,9 @@
 @font-face {
     font-family: 'Press Start 2P';
-    src: url('./PressStart2P.ttf');
+    src: url('../Main/Resources/Fonts/PressStart2P.ttf');
 }
 *{
     font-family: 'Press Start 2P', sans-serif;
     color: white;
 }
-.wrapper {
-    background-image: url('./MenuBackground.jpg');
-    background-size: cover;
-    position: sticky;
-}
   
-.wrapper :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    animation: stars 30s linear infinite;
-}
-  
-@keyframes stars {
-    from { background-position: 0 0; }
-    to { background-position: 100% 0; }
-}
