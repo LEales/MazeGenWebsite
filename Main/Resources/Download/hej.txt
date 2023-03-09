@@ -1,0 +1,1 @@
+Grattis, du kan nu spela MazeGen!

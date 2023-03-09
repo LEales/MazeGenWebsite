@@ -1,5 +1,5 @@
 
-$( document ).ready(function() {
+$(document).ready(function() {
     const items = document.querySelectorAll('.image-container');
     const zoomOverlay = document.querySelector('.zoom-overlay');
     const zoomImage = zoomOverlay.querySelector('img');
